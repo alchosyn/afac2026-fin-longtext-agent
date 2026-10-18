@@ -1,0 +1,42 @@
+[
+ {
+  "doc_id": "fr_cscec_2025",
+  "domain": "financial_reports",
+  "title": "董事长致辞",
+  "source_pdf": "raw/financial_reports/annual_cscec_2025_report.pdf",
+  "mineru": "processed_data/fr_cscec_2025/mineru.json",
+  "tier": "standard",
+  "parse_mode": "txt",
+  "pages": 370,
+  "pdf_pages": 370,
+  "pages_without_text_layer": 26,
+  "blocks": 4355,
+  "types": {
+   "chart": 16,
+   "doc_title": 7,
+   "footer": 380,
+   "header": 579,
+   "image": 143,
+   "index": 3,
+   "page_number": 349,
+   "paragraph_title": 1028,
+   "table": 388,
+   "text": 1462
+  },
+  "titles": 1035,
+  "title_levels": {
+   "1": 7,
+   "2": 1028
+  },
+  "text_blocks": 1462,
+  "dropped_blocks": 1311,
+  "tables": 388,
+  "tables_with_caption": 26,
+  "tables_with_footnote": 37,
+  "tables_continues_prev": 10,
+  "figures": 159,
+  "images": 143,
+  "charts": 16,
+  "bytes": 2509721
+ }
+]

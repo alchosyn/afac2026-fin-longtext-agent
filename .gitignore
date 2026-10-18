@@ -1,0 +1,27 @@
+# 密钥与本机设置
+.env
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 比赛下发的数据：PDF、A 组题目、B 榜题目与提交模板
+raw/
+questions/
+upload_b/
+
+# 生成的数据与运行结果（processed_data 重算要跑 MinerU，请另外备份）
+processed_data/
+output/
+logs/
+
+# 只在本机保留：已退役的方案、解析器对比、旁支项目
+experiments/
+mcp/
+
+# 杂项
+*.bak
