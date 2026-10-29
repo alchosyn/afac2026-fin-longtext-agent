@@ -1,0 +1,6395 @@
+{
+ "about": "Hand review (2026-10-28) of the first lines of figures MinerU gave no caption: verdict title -> the line becomes the figure's caption (parsing.figures.describe_figure). Keyed by doc_id + page + text. Title = a line naming the whole figure (chart title printed inside the chart, diagram / org-chart title, the caption printed on a photo); not a title: legends, axis ticks and units, nodes of a structure chart, names inside photos, logos, slogans, banners without the picture, chapter covers, seals and signatures, screenshots, OCR noise.",
+ "items": [
+  {
+   "doc_id": "pack2_text04",
+   "page": 23,
+   "text": "月 2月 3月 4月 5月 6月 7月 8月 9月 10月 11月 12月",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text04#f11",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text04",
+   "page": 32,
+   "text": "出货量 同比",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text04#f13",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text04",
+   "page": 44,
+   "text": "其他",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text04#f19",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text04",
+   "page": 45,
+   "text": "宁德时代 比亚迪 中创新航 亿纬锂能",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text04#f20",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text04",
+   "page": 46,
+   "text": "宁德时代 宁德时代（扣除比亚迪）",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text04#f21",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text04",
+   "page": 67,
+   "text": "元/吨 价格期初价格20日移动平均价",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text04#f25",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text05",
+   "page": 1,
+   "text": "东方甄选 恒生指数",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text05#f01",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text05",
+   "page": 8,
+   "text": "直播电商 大学教育",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text05#f05",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text05",
+   "page": 8,
+   "text": "自营产品及直播电商 大学教育",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text05#f06",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text05",
+   "page": 10,
+   "text": "期间费用率",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text05#f11",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text05",
+   "page": 10,
+   "text": "销售及营销费用率 研发费用率",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text05#f12",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text05",
+   "page": 13,
+   "text": "头达直播 其他直播(店播、中小大人直播等) 货架场",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text05#f18",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text05",
+   "page": 13,
+   "text": "TOP100平均生命周期(天)",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text05#f19",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text05",
+   "page": 16,
+   "text": "鸣鸣很忙 万辰集团",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text05#f26",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text05",
+   "page": 16,
+   "text": "鸣鸣系毛利率（量贩零食） 万辰系毛利率（量贩零食）",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text05#f27",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text05",
+   "page": 25,
+   "text": "东方甄选 东方甄选 东方甄选",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "pack2_text05#f37",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text05",
+   "page": 26,
+   "text": "APPGMV占总GMV比 APP自营GMV占自营总GMV比",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text05#f38",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text05",
+   "page": 26,
+   "text": "付费会员ASP（元） 付费会员数（万人）",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text05#f39",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text06",
+   "page": 7,
+   "text": "时间范围 3Y 5Y 10Y 上市以来 自定义 PE-TTM PB PS PCF 周期 周 自定义设置 4.0.00 XLS F5 W",
+   "verdict": "not_title",
+   "reason": "软件截图界面",
+   "figure": "pack2_text06#f03",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text06",
+   "page": 7,
+   "text": "一收盘点位 1.11x 1.20x 1.29x 1.38x 1.47x",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text06#f04",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text06",
+   "page": 8,
+   "text": "时间范围 3Y 5Y 10Y 上市以来 自定义 PE-TTM PB PS PCF 周期 周 自定义设置 4.0.00 XLS F5 ?",
+   "verdict": "not_title",
+   "reason": "软件截图界面",
+   "figure": "pack2_text06#f05",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text06",
+   "page": 8,
+   "text": "基础化工（申万）801030.SI4873.56-0.21% PE/PBBands",
+   "verdict": "not_title",
+   "reason": "软件截图界面",
+   "figure": "pack2_text06#f06",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text06",
+   "page": 18,
+   "text": "涤纶短纤开工率",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text06#f33",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text06",
+   "page": 23,
+   "text": "CTO-PE利润 CTO-PP利润",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text06#f50",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text06",
+   "page": 25,
+   "text": "中国：参考价：草甘麟",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text06#f56",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text08",
+   "page": 5,
+   "text": "周频公募权益产品新成立份额(亿份)",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "pack2_text08#f01",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text08",
+   "page": 6,
+   "text": "周频两融存量情况(亿元)",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "pack2_text08#f02",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text08",
+   "page": 6,
+   "text": "周频两融交易情况(亿元)",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "pack2_text08#f03",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text08",
+   "page": 9,
+   "text": "周频股票型ETF净流入金额(亿元)",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "pack2_text08#f06",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text08",
+   "page": 11,
+   "text": "周频回购情况",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "pack2_text08#f07",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text08",
+   "page": 12,
+   "text": "周频股权融资情况(亿元)",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "pack2_text08#f08",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text08",
+   "page": 13,
+   "text": "周频产业资本增减持情况(亿元)",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "pack2_text08#f09",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text08",
+   "page": 15,
+   "text": "周频限售解禁流通市值情况(亿元)",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "pack2_text08#f10",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text08",
+   "page": 17,
+   "text": "周频北向资金成交占比",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "pack2_text08#f12",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text08",
+   "page": 28,
+   "text": "【华创策略】媒体平台A股讨论热度指数(标准化)",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "pack2_text08#f37",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text08",
+   "page": 34,
+   "text": "同花顺APP评分情况",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "pack2_text08#f48",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text09",
+   "page": 1,
+   "text": "芯原股份 沪深300",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text09#f01",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text10",
+   "page": 1,
+   "text": "非银金融 沪深300",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text10#f01",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text11",
+   "page": 1,
+   "text": "通信 沪深300",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text11#f01",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text12",
+   "page": 1,
+   "text": "国金证券",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "pack2_text12#f01",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text12",
+   "page": 25,
+   "text": "山",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "pack2_text12#f40",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text12",
+   "page": 25,
+   "text": "口",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "pack2_text12#f41",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text13",
+   "page": 1,
+   "text": "农林牧渔 沪深300",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text13#f01",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text14",
+   "page": 13,
+   "text": "行内管理部门 资产负债管理部 风险管理部 财务会计部",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "pack2_text14#f17",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text15",
+   "page": 1,
+   "text": "中国平安 沪深300",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text15#f01",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text15",
+   "page": 9,
+   "text": "图3：中国平安综合金融实现全面跃迁式发展",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "pack2_text15#f04",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text16",
+   "page": 1,
+   "text": "圣农发展 养殖业",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text16#f01",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text17",
+   "page": 20,
+   "text": "东吴证券研究所",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "pack2_text17#f06",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text18",
+   "page": 1,
+   "text": "大族激光 沪深300",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text18#f01",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text19",
+   "page": 1,
+   "text": "远望谷 沪深300",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "pack2_text19#f01",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text19",
+   "page": 12,
+   "text": "植入标签实时监测",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "pack2_text19#f19",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text19",
+   "page": 12,
+   "text": "数字创新世界",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "pack2_text19#f20",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text19",
+   "page": 15,
+   "text": "美国",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "pack2_text19#f26",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text19",
+   "page": 18,
+   "text": "TOTAL:S9.7",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "pack2_text19#f29",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "pack2_text20",
+   "page": 13,
+   "text": "行内管理部门 资产负债管理部 风险管理部 财务会计部",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "pack2_text20#f17",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 1,
+   "text": "有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f02",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 1,
+   "text": "牵头主承销商/受托管理人/簿记管理人",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f03",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 1,
+   "text": "华泰联合证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f04",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 1,
+   "text": "万联证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f05",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 1,
+   "text": "中信建投证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f06",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 1,
+   "text": "证",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f07",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 1,
+   "text": "广发证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f08",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 1,
+   "text": "中国银河证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f09",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 1,
+   "text": "CICC",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f10",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 1,
+   "text": "?中银证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f11",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 42,
+   "text": "广东省人民政府 广东省财政尺",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text01#f12",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 53,
+   "text": "广东省广晟控股集团有限公司2026年面向专业投资者公开发行科技创新公司债券（第一期）募集说明",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text01#f13",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 264,
+   "text": "晟控股集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f14",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 265,
+   "text": "晟",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f15",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 266,
+   "text": "团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f16",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 267,
+   "text": "晟控股集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f17",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 268,
+   "text": "晟控股集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f18",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 269,
+   "text": "晟控股集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f19",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 270,
+   "text": "晟控股集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f20",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 271,
+   "text": "晟",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f21",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 272,
+   "text": "晟控股集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f22",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 273,
+   "text": "晟",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f23",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 274,
+   "text": "晟",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f24",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 275,
+   "text": "晟控股集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f25",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 276,
+   "text": "晟控股集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f26",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 277,
+   "text": "股份券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f27",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 278,
+   "text": "授权人",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f28",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 279,
+   "text": "万联证券股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f29",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 280,
+   "text": "本复印件与原件一致",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f30",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 280,
+   "text": "职",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f31",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 280,
+   "text": "证券股份有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f32",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 281,
+   "text": "发",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f33",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 282,
+   "text": "发证",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f34",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 282,
+   "text": "法定",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f35",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 283,
+   "text": "办公室",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f36",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 284,
+   "text": "粘管理局",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f37",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 284,
+   "text": "茶★",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f40",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 285,
+   "text": "证路子公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f41",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 287,
+   "text": "发证",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f43",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 287,
+   "text": "管局",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f44",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 288,
+   "text": "国",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f45",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 290,
+   "text": "业妆",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f46",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 291,
+   "text": "中国国际金融股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f47",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 292,
+   "text": "合",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f48",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 293,
+   "text": "复原授权人垫",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f49",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 294,
+   "text": "银河",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f50",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 295,
+   "text": "证",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f51",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 296,
+   "text": "公司2026年面向专业投资者",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f52",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 297,
+   "text": "证券股份",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f53",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 301,
+   "text": "泰海通证券股份有限",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f54",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 302,
+   "text": "国泰海",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f55",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 302,
+   "text": "证",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f57",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 305,
+   "text": "泰海",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f58",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 305,
+   "text": "泰海通",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f59",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 305,
+   "text": "式",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f60",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 306,
+   "text": "LAW",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f61",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 307,
+   "text": "中国注册會计師",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f62",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 307,
+   "text": "S",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f63",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 307,
+   "text": "通",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f65",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 308,
+   "text": "事务所",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f66",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text01",
+   "page": 309,
+   "text": "合",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text01#f67",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 1,
+   "text": "BYD",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f01",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 2,
+   "text": "大",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f03",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 2,
+   "text": "大",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f04",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 2,
+   "text": "大",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f05",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 2,
+   "text": "二",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f06",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 2,
+   "text": "大",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f09",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 16,
+   "text": "EUP",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f10",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 16,
+   "text": "海狮07EV",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_byd_2024#f11",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 17,
+   "text": "TLDM",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f14",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 18,
+   "text": "豹6",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f15",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 18,
+   "text": "狮05DMi",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f16",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 18,
+   "text": "W",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f17",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 19,
+   "text": "N8",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f18",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 20,
+   "text": "U9",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f20",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 20,
+   "text": "D2U7",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2024#f21",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2024",
+   "page": 129,
+   "text": "王传福",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_byd_2024#f22",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "ins_01",
+   "page": 2,
+   "text": "扣初始费用",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "ins_01#f01",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 1,
+   "text": "GROUP)",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f01",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 48,
+   "text": "深圳市人民政府国有资产监督管理委员会",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text02#f02",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 58,
+   "text": "深圳市融资租赁 (集团) 有限公司组织架构",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "fc_text02#f03",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 83,
+   "text": "支付设备价款 挑选供应商及设备",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text02#f06",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 87,
+   "text": "（1）转移拥有权",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text02#f07",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 236,
+   "text": "LEASING(GROUP)",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f08",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 237,
+   "text": "ALLEASINGGRUJP",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f09",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 238,
+   "text": "盗祖贸（集团）有限",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f10",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 239,
+   "text": "LEASING(GROUP)",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f11",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 240,
+   "text": "LEASING(GROUP",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f12",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 241,
+   "text": "LEASIHG(CROUP)",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f13",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 242,
+   "text": "LEASINGGROUP)",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f15",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 243,
+   "text": "LEASING",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f16",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 244,
+   "text": "LEASING",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f17",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 245,
+   "text": "LEASTRG",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f18",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 246,
+   "text": "国信证券股份有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f19",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 247,
+   "text": "盖公司公章的我司不担份有 签",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f20",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 247,
+   "text": "（签名或盖章",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f21",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 248,
+   "text": "建",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f23",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 248,
+   "text": "C",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f24",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 248,
+   "text": "证券股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f25",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 249,
+   "text": "亚券股份有限",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f26",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 250,
+   "text": "城律师",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f27",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 251,
+   "text": "李",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f28",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 251,
+   "text": "翠图程",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f29",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text02",
+   "page": 251,
+   "text": "特殊普通合伙）",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text02#f30",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 1,
+   "text": "债券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f01",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 1,
+   "text": "中信证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f02",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 1,
+   "text": "统金金圆统一一证券有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f03",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 1,
+   "text": "广发证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f04",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 1,
+   "text": "n 中信建投证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f05",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 1,
+   "text": "华福证券券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f06",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 40,
+   "text": "厦门市财政局",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text03#f07",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 235,
+   "text": "夏门金圆投资集团有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f18",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 236,
+   "text": "有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f19",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 237,
+   "text": "夏讯金圆投资集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f20",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 238,
+   "text": "股分",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f21",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 239,
+   "text": "投限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f22",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 240,
+   "text": "金圆",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f23",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 241,
+   "text": "年力 今6",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f24",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 242,
+   "text": "中信建投",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f25",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 245,
+   "text": "发址券股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f26",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 246,
+   "text": "司经营管理",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f27",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 246,
+   "text": "法定",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f28",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 247,
+   "text": "办公室",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f29",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 248,
+   "text": "可",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f31",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 248,
+   "text": "发证",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f32",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 248,
+   "text": "年02月",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f34",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 249,
+   "text": "友证 子公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f35",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 251,
+   "text": "发证",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f37",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 251,
+   "text": "益管局",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f38",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 252,
+   "text": "份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f39",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 253,
+   "text": "ANTA",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f40",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 254,
+   "text": "特殊普通",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f41",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 255,
+   "text": "发口",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f43",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 256,
+   "text": "会计师事务所（特殊普通",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text03#f44",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 257,
+   "text": "CREDIT",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f45",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text03",
+   "page": 258,
+   "text": "签字）：",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text03#f46",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_byd_2025",
+   "page": 1,
+   "text": "BYD",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2025#f01",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2025",
+   "page": 3,
+   "text": "快报销量 快报海外出口量 营业额 境外营业额",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_byd_2025#f02",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2025",
+   "page": 20,
+   "text": "IRL",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2025#f07",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2025",
+   "page": 23,
+   "text": "招N",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2025#f14",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2025",
+   "page": 23,
+   "text": "BHNIL",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2025#f15",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2025",
+   "page": 26,
+   "text": "BYD",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_byd_2025#f18",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_byd_2025",
+   "page": 111,
+   "text": "王传福",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_byd_2025#f21",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_catl_2024",
+   "page": 14,
+   "text": "动力电池 创新解决方案",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_catl_2024#f02",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_catl_2024",
+   "page": 102,
+   "text": "曾毓群",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_catl_2024#f03",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 107,
+   "text": "国国家铁路集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f08",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 108,
+   "text": "国国家铁路集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f09",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 109,
+   "text": "成路集团",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f10",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 110,
+   "text": "中国国家铁路集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f11",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 111,
+   "text": "鼎集团",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f12",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 112,
+   "text": "国国家铁路集团有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f13",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 113,
+   "text": "国国家铁路集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f14",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 114,
+   "text": "司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f15",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 115,
+   "text": "国国家铁路集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f16",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 116,
+   "text": "国国家铁路集团有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f17",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 117,
+   "text": "国国家铁路集团有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f18",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 118,
+   "text": "国国家铁路集团有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f19",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 119,
+   "text": "国国家铁路集团有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f20",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 120,
+   "text": "国国家家铁路集团有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f21",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 121,
+   "text": "025年月13公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f22",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 122,
+   "text": "书一式四 由授权",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f23",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 123,
+   "text": "书一式四份一分别由授权",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f24",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 124,
+   "text": "信",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f25",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 125,
+   "text": "授权人",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f26",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 126,
+   "text": "年",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f27",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 128,
+   "text": "券股务",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f28",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 129,
+   "text": "服份方",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f29",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 132,
+   "text": "通",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f31",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 132,
+   "text": "泰海 有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f32",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 132,
+   "text": "公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f33",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 133,
+   "text": "设有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f35",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 134,
+   "text": "集团有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f36",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 137,
+   "text": "国",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f37",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 138,
+   "text": "中国国际金融股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f38",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 139,
+   "text": "念融股",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f39",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 140,
+   "text": "有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f40",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 141,
+   "text": "中德证券有限责任公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f41",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 142,
+   "text": "格限责众",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f42",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 144,
+   "text": "S",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f44",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 145,
+   "text": "际证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f45",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 146,
+   "text": "招阁证券股份有限公司品",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f46",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 147,
+   "text": "嵌和 公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f47",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 147,
+   "text": "商",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f48",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 148,
+   "text": "发证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f49",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 149,
+   "text": "法定代",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f50",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 151,
+   "text": "售依",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f51",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 151,
+   "text": "口",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f52",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 151,
+   "text": "025年02月",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f53",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 154,
+   "text": "发证",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f54",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 155,
+   "text": "中万中源证",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f55",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 157,
+   "text": "中源进",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f56",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 158,
+   "text": "长城国瑞证券有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f57",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 159,
+   "text": "瑞",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f58",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 160,
+   "text": "国信证",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f59",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 161,
+   "text": "般份有处",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f60",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 162,
+   "text": "公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f61",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 163,
+   "text": "中国注册会计师",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f62",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 163,
+   "text": "中国注册会计师",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f63",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 163,
+   "text": "华会计师事务所特殊",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f64",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 164,
+   "text": "H",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f65",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text13",
+   "page": 165,
+   "text": "e1",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text13#f66",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 1,
+   "text": "年度报告",
+   "verdict": "not_title",
+   "reason": "横幅/章节扉页/封面",
+   "figure": "fr_cscec_2025#f01",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 2,
+   "text": "O",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2025#f04",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 4,
+   "text": "LD",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f06",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 6,
+   "text": "中国建筑股份有限公司",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f08",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 7,
+   "text": "郑学选",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f09",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 8,
+   "text": "个T",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2025#f12",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 8,
+   "text": "画",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2025#f14",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 8,
+   "text": "目逅",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f16",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 16,
+   "text": "广州南沙全民文化体育综合体项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f29",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 18,
+   "text": "深圳平安国际金融中心项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f31",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 18,
+   "text": "重庆江津几江长江大桥项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f32",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 19,
+   "text": "北京中海金融中心项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f33",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 19,
+   "text": "青岛胶东国际机场项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f34",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 19,
+   "text": "埃及新首都中央商务区项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f35",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 20,
+   "text": "二",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2025#f37",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 22,
+   "text": "TII",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2025#f41",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 24,
+   "text": "特征",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f46",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 24,
+   "text": "五好集成",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f47",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 24,
+   "text": "需求原声",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f48",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 25,
+   "text": "中国建筑好房子 中国建筑好房子 中国建筑好房子 中国建筑好房子 中国建筑好房子",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f55",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 25,
+   "text": "规划设计 建造 (选材） 物业管理 评估 交付",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f57",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 25,
+   "text": "需求痛点开放",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f60",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 25,
+   "text": "解决方案开放",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f61",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 25,
+   "text": "对行业开放",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f62",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 34,
+   "text": "广州增芯12英寸先进智能传感器晶圆制造量产线项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f71",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 35,
+   "text": "北京三里河一区28号楼项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f72",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 36,
+   "text": "南通至无锡高速公路海门至通州段（南通绕城高速公路）项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f73",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 37,
+   "text": "中电智慧喀什地区麦盖提县工业园区低碳转型50万千瓦光伏项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f74",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 38,
+   "text": "北京紫京宸园项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f75",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 39,
+   "text": "上海徐汇滨江安澜项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f76",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 40,
+   "text": "西宁曹家堡国际机场三期扩建工程T3航站楼及综合交通中心项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f77",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 41,
+   "text": "哈萨克斯坦阿斯塔纳市轻轨一期项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f78",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 45,
+   "text": "绿色低碳与建筑新能源 城市更新与城市运营",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "fr_cscec_2025#f79",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 47,
+   "text": "中国紧凑型聚变能实验装置园区(BEST)项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f82",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 48,
+   "text": "房地产开发投资 基础设施投资 房建工程投资 城镇综合建设 固定资产投资及其他投资",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "fr_cscec_2025#f83",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 49,
+   "text": "京津冀",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f84",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 50,
+   "text": "交通运输类",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "fr_cscec_2025#f85",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 50,
+   "text": "梧州至乐业公路广宁经苍梧至昭平项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f86",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 51,
+   "text": "“光储直柔”零碳立体车库",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f87",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 51,
+   "text": "焊接机器人",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f88",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 51,
+   "text": "极地科考增压建筑",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f89",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 51,
+   "text": "丙烷脱氢核心反应器",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f90",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 69,
+   "text": "MN",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f91",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 75,
+   "text": "S",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2025#f93",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 76,
+   "text": "A",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2025#f98",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 84,
+   "text": "经营管理",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "fr_cscec_2025#f105",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 93,
+   "text": "福建长汀绿色建材产业园项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2025#f108",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 112,
+   "text": "第六节",
+   "verdict": "not_title",
+   "reason": "横幅/章节扉页/封面",
+   "figure": "fr_cscec_2025#f111",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 119,
+   "text": "中国建筑集团有限公司",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f113",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 120,
+   "text": "国务院国有资产监督管理委员会",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f114",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 145,
+   "text": "计师事务所（特殊普通合伙）",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2025#f115",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 145,
+   "text": "高",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2025#f116",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 145,
+   "text": "會",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2025#f118",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 146,
+   "text": "股份",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f119",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 147,
+   "text": "合并资产负债表 续",
+   "verdict": "not_title",
+   "reason": "盖在报表标题上的印章",
+   "figure": "fr_cscec_2025#f120",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 148,
+   "text": "股份",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f122",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 148,
+   "text": "人民币千元",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f123",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 149,
+   "text": "股份参",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f126",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 150,
+   "text": "盛股份参",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f127",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 151,
+   "text": "感股份有",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f128",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 152,
+   "text": "股份",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f129",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 153,
+   "text": "盛股份",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f130",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 154,
+   "text": "盛股份",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f131",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 155,
+   "text": "晓股份参",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f132",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 156,
+   "text": "中国建筑股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f133",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 157,
+   "text": "盛股份参",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f135",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 157,
+   "text": "人民币千元",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f136",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 158,
+   "text": "盛股份",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f138",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 159,
+   "text": "股份查",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f139",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 160,
+   "text": "中国建筑股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f141",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 161,
+   "text": "中国建筑股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f142",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 162,
+   "text": "康股份参",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f143",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 162,
+   "text": "黄燕",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f145",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 366,
+   "text": "月",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f147",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 366,
+   "text": "YOUNGHUA",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f148",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 367,
+   "text": "国财政部政部制",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f149",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 367,
+   "text": "《年 HUA发",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f150",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 368,
+   "text": "PUBLIC",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f153",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 368,
+   "text": "NTANTS 日1",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f155",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 368,
+   "text": "口",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f156",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 369,
+   "text": "YOUNGHUA",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2025#f158",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2025",
+   "page": 370,
+   "text": "CIC.",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2025#f159",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "ins_04",
+   "page": 6,
+   "text": "口口",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "ins_04#f02",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "ins_08",
+   "page": 9,
+   "text": "JR",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "ins_08#f01",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text12",
+   "page": 40,
+   "text": "海南省慈航公益基金",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text12#f02",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text12",
+   "page": 45,
+   "text": "陕西省国资委 陕西省人民政府",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text12#f03",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text12",
+   "page": 65,
+   "text": "P=M可比公司基准PB;×修正系数/3x(1－流动性折扣率)",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text12#f04",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_chinamobile_2025",
+   "page": 1,
+   "text": "中国移动",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_chinamobile_2025#f02",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_chinamobile_2025",
+   "page": 5,
+   "text": "中国移动通信集团",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_chinamobile_2025#f03",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_catl_2025",
+   "page": 14,
+   "text": "动力电池系统 创新解决方案",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_catl_2025#f02",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_catl_2025",
+   "page": 100,
+   "text": "曾毓群",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_catl_2025#f03",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 1,
+   "text": "期募集说明",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f01",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 1,
+   "text": "国元证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f02",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 39,
+   "text": "陕西省人民政府 上海市人民政府",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text14#f03",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 48,
+   "text": "股东会",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text14#f04",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 218,
+   "text": "部",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f06",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 219,
+   "text": "y",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f07",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 219,
+   "text": "公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f08",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 220,
+   "text": "西部证券股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f09",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 221,
+   "text": "西部证券股份有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f10",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 222,
+   "text": "度份有限公司公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f11",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 223,
+   "text": "西部证券股份有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f12",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 224,
+   "text": "西部",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f13",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 225,
+   "text": "西部证券股份有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f14",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 226,
+   "text": "西部证券股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f15",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 227,
+   "text": "公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f16",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 228,
+   "text": "西部证券股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f17",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 229,
+   "text": "西部正券股份有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f18",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 230,
+   "text": "西部证券股份有限",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f19",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 231,
+   "text": "部证券股份有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f20",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 232,
+   "text": "年 月",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f21",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 233,
+   "text": "年月",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f23",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 235,
+   "text": "西部证券股份有限",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f25",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 236,
+   "text": "年八月",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f26",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 237,
+   "text": "EC",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f27",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 238,
+   "text": "ANTA",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f28",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 239,
+   "text": "会计师事务所（特殊普",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f29",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 240,
+   "text": "CREDIT",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f30",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text14",
+   "page": 241,
+   "text": "签字）：",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text14#f31",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text07",
+   "page": 46,
+   "text": "国务院国资委 社保基金会",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text07#f01",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text07",
+   "page": 54,
+   "text": "广东省人民政府 广东省财政厅",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text07#f02",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text07",
+   "page": 97,
+   "text": "港口代理",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text07#f04",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text07",
+   "page": 106,
+   "text": "车辆 旅客",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text07#f05",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 49,
+   "text": "股东会",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text11#f01",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 49,
+   "text": "北京分公司",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text11#f02",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 75,
+   "text": "2019-2023年我国数字经济增加值及占GDP比重",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "fc_text11#f03",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 75,
+   "text": "2019-2024年我国软件业务收入增长情况",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "fc_text11#f04",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 76,
+   "text": "2021-2025年我国人工智能软件市场规模及预测",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "fc_text11#f05",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 77,
+   "text": "2019-2028年我国ERP软件市场规模",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "fc_text11#f06",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 78,
+   "text": "2020-2027年我国金融机构科技投入规模",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "fc_text11#f07",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 80,
+   "text": "我国大型企业ERP软件应用情况",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "fc_text11#f08",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 89,
+   "text": "集团管控解决方案 数字化业务解决方案 需求分析",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text11#f09",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 89,
+   "text": "财务综合管理",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text11#f10",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 91,
+   "text": "实例文档 实例文档创建 实例文档编辑 实例文档导出",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text11#f11",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 93,
+   "text": "用户层 决策层 管理层 风险合规部 业务部门 分公司用户",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text11#f13",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 94,
+   "text": "数据查询 模板库 指标函数 系统管理 数据查询 模板库 图表库",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text11#f14",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 95,
+   "text": "项目组提出采购需求",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text11#f15",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 97,
+   "text": "商机获取",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text11#f16",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 97,
+   "text": "制定年度研发规划",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text11#f17",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 240,
+   "text": "股份有限",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text11#f18",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 241,
+   "text": "普联软件股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text11#f19",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 242,
+   "text": "代人",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text11#f20",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 243,
+   "text": "证",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text11#f21",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 244,
+   "text": "202爆12月 司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text11#f22",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 245,
+   "text": "北京市中伦律师事",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text11#f23",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 246,
+   "text": "中国注册会计师",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text11#f24",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 246,
+   "text": "师事务所（特殊普通合伙）",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text11#f25",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 247,
+   "text": "公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text11#f26",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text11",
+   "page": 249,
+   "text": "普",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text11#f27",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_midea_2025",
+   "page": 119,
+   "text": "何享健",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_midea_2025#f01",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 50,
+   "text": "股东会",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text09#f02",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 57,
+   "text": "江斌",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text09#f03",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 80,
+   "text": "2023-2027年全球营养保健食品行业市场前景预测",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "fc_text09#f05",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 81,
+   "text": "2018-2022年中国营养保健食品行业市场规模",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "fc_text09#f06",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 177,
+   "text": "元/千克",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "fc_text09#f11",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 243,
+   "text": "威集团股份有限公司",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text09#f12",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 244,
+   "text": "GRO",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text09#f14",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 245,
+   "text": "MWAY",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text09#f16",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 246,
+   "text": "广发证券股份有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text09#f17",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 247,
+   "text": "发",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text09#f20",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 248,
+   "text": "律坊AW",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text09#f21",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 249,
+   "text": "陈丽芬环会",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text09#f22",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 249,
+   "text": "会计师事务所",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text09#f23",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 250,
+   "text": "任志娟",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text09#f24",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 250,
+   "text": "国际信用部",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text09#f25",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text09",
+   "page": 251,
+   "text": "团股份有限公司董事会",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text09#f26",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 1,
+   "text": "A司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f01",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 49,
+   "text": "战略委员会",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text06#f02",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 104,
+   "text": "上游 中游 下游",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text06#f06",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 108,
+   "text": "应用模块开发",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text06#f07",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 109,
+   "text": "服务 项目启动 机制流程规划 流程和数据验证 实施运行 运行成果总结",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text06#f08",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 110,
+   "text": "事业部实施顾问 应用开发中心",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text06#f09",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 247,
+   "text": "CO",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f11",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 248,
+   "text": "刘志辉",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f12",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 248,
+   "text": "军良",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f13",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 249,
+   "text": "证券",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f14",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 250,
+   "text": "券 公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f15",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 251,
+   "text": "北京海润天睿律师事",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f16",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 252,
+   "text": "荣师册",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f17",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 252,
+   "text": "计",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f18",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 252,
+   "text": "五计注",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f19",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 252,
+   "text": "香师开",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f20",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 252,
+   "text": "莉计",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f21",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 252,
+   "text": "ACCOUNTANTS(SP",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f22",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 253,
+   "text": "LIANHE",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f23",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 254,
+   "text": "G",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f25",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text06",
+   "page": 255,
+   "text": "捷数智股份有限股份直钢",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text06#f26",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_midea_2024",
+   "page": 142,
+   "text": "何享健",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_midea_2024#f01",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cmb_2025",
+   "page": 7,
+   "text": "民",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cmb_2025#f02",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cmb_2025",
+   "page": 9,
+   "text": "CEABAOD",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cmb_2025#f03",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cmb_2025",
+   "page": 82,
+   "text": "股东会",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cmb_2025#f06",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cmb_2025",
+   "page": 104,
+   "text": "董事会办公室",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cmb_2025#f07",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cmb_2025",
+   "page": 107,
+   "text": "实施错位发展",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cmb_2025#f08",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cmb_2025",
+   "page": 116,
+   "text": "招商局集团有限公司",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cmb_2025#f10",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cmb_2025",
+   "page": 120,
+   "text": "EY安永",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cmb_2025#f11",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 1,
+   "text": "ldwid",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text05#f01",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 1,
+   "text": "东北证券股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text05#f02",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 61,
+   "text": "董晓俊 周国雄 江培来 黄庆娥 江东城",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text05#f05",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 61,
+   "text": "股东会",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text05#f06",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 374,
+   "text": "智能电路科技股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text05#f12",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 375,
+   "text": "智超能电路科技",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text05#f14",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 376,
+   "text": "能电路科技股份有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text05#f15",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 378,
+   "text": "，年2月",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text05#f17",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 379,
+   "text": "伴师（签宁）",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text05#f18",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 379,
+   "text": "深圳）",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text05#f19",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 380,
+   "text": "李惠琦",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text05#f21",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 380,
+   "text": "师事务所",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text05#f22",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 381,
+   "text": "东方金",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text05#f23",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text05",
+   "page": 385,
+   "text": "天苏本川智建",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text05#f24",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 1,
+   "text": "年度报告",
+   "verdict": "not_title",
+   "reason": "横幅/章节扉页/封面",
+   "figure": "fr_cscec_2024#f01",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 2,
+   "text": "O",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2024#f04",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 4,
+   "text": "美",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f06",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 6,
+   "text": "中国建筑股份有限公司",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2024#f08",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 7,
+   "text": "2025年4月15日",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2024#f09",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 8,
+   "text": "个T",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2024#f12",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 8,
+   "text": "画",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2024#f14",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 9,
+   "text": "大大 >",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2024#f21",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 16,
+   "text": "第三节",
+   "verdict": "not_title",
+   "reason": "横幅/章节扉页/封面",
+   "figure": "fr_cscec_2024#f29",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 18,
+   "text": "深圳平安国际金融中心",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f30",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 18,
+   "text": "重庆江津几江长江大桥",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f31",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 19,
+   "text": "北京中海金融中心",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f32",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 19,
+   "text": "青岛胶东国际机场",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f33",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 19,
+   "text": "埃及新首都中央商务区",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f34",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 23,
+   "text": "n",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2024#f35",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 25,
+   "text": "TII",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2024#f40",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 27,
+   "text": "上海建国东路历史风貌保护及城市更新项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f43",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 32,
+   "text": "华南理工大学广州国际校区一期工程",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f52",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 33,
+   "text": "绵阳京东方AMOLED（柔性）生产线项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f53",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 34,
+   "text": "新建兰州至张掖三四线铁路中川机场至武威段站前工程及中川地区站后工程LX-ZW-ZQ5标段",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f54",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 35,
+   "text": "深圳市轨道交通13号线",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f55",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 36,
+   "text": "上海中海恒昌玖里项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f56",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 37,
+   "text": "北京中建宸园项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f57",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 38,
+   "text": "烟台蓬莱国际机场二期工程T2航站楼项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f58",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 39,
+   "text": "波黑泛欧5C走廊高速公路项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f59",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 42,
+   "text": "绿色低碳与建筑新能源 智能建造与数字化",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "fr_cscec_2024#f60",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 44,
+   "text": "赋能美好生活",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2024#f63",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 45,
+   "text": "创新引领中国",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2024#f64",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 47,
+   "text": "报告期内投资额（亿元） 报告期内回款额（亿元）",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "fr_cscec_2024#f65",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 48,
+   "text": "京津冀",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2024#f66",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 49,
+   "text": "交通运输类",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "fr_cscec_2024#f67",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 49,
+   "text": "邯港高速公路衡水段工程政府和社会资本合作(PPP)项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f68",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 50,
+   "text": "重庆明月湖超充示范站项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f69",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 50,
+   "text": "丙烷脱氢核心反应器",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f70",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 50,
+   "text": "湖南装配式PC工厂",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f71",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 50,
+   "text": "极地科考增压建筑",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f72",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 73,
+   "text": "S",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2024#f75",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 76,
+   "text": "STO",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2024#f90",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 85,
+   "text": "云南华丽高速公路项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f93",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 86,
+   "text": "项目建造",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "fr_cscec_2024#f94",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 91,
+   "text": "基本每股收益（元/股） 每股派息（元） 派息比例",
+   "verdict": "not_title",
+   "reason": "图表内的图例/坐标轴/单位/标签",
+   "figure": "fr_cscec_2024#f96",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 98,
+   "text": "高台北部滩百万千瓦风电基地20万千瓦风电项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f98",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 100,
+   "text": "联合南非国家道路局举办安全培训",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f99",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 102,
+   "text": "广州黄埔区迳下未来乡村新型建筑工业化示范项目",
+   "verdict": "title",
+   "reason": "照片说明",
+   "figure": "fr_cscec_2024#f100",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 131,
+   "text": "中国建筑集团有限公司",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2024#f102",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 132,
+   "text": "国务院国有资产监督管理委员会",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2024#f103",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 155,
+   "text": "计师事务所（特殊普通合伙）",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2024#f104",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 155,
+   "text": "中國",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2024#f105",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 155,
+   "text": "荒",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fr_cscec_2024#f106",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 155,
+   "text": "高 中",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fr_cscec_2024#f107",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 156,
+   "text": "股份有限",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f109",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 156,
+   "text": "人民币千元",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f110",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 157,
+   "text": "合并资产负债表（续）>",
+   "verdict": "not_title",
+   "reason": "盖在报表标题上的印章",
+   "figure": "fr_cscec_2024#f111",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 157,
+   "text": "人民币千元",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f112",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 158,
+   "text": "中国建筑股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f113",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 158,
+   "text": "洗郑",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f114",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 159,
+   "text": "中国建筑股份有限限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f116",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 160,
+   "text": "并利润表(续）口",
+   "verdict": "not_title",
+   "reason": "盖在报表标题上的印章",
+   "figure": "fr_cscec_2024#f118",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 160,
+   "text": "选郑",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f119",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 161,
+   "text": "股份有限",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f120",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 161,
+   "text": "末余额",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f121",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 162,
+   "text": "明股份参",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f123",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 162,
+   "text": "选翔",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f124",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 163,
+   "text": "明股份参",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f125",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 164,
+   "text": "中中国建筑股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f127",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 165,
+   "text": "中国建筑股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f128",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 165,
+   "text": "人民币千元",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f129",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 166,
+   "text": "中资产负债表（续）",
+   "verdict": "not_title",
+   "reason": "盖在报表标题上的印章",
+   "figure": "fr_cscec_2024#f131",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 166,
+   "text": "人民币千元",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f132",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 167,
+   "text": "寄股份参",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f133",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 167,
+   "text": "人民币千元",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f134",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 167,
+   "text": "选郑",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f135",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 167,
+   "text": "黄杰",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f136",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 168,
+   "text": "股份务",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f137",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 168,
+   "text": "枫姜",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f139",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 169,
+   "text": "瞬股份参",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f140",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 170,
+   "text": "中国建筑股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f143",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 170,
+   "text": "选郑",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f144",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 170,
+   "text": "横蒸",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f145",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 171,
+   "text": "现金流量表",
+   "verdict": "not_title",
+   "reason": "盖在报表标题上的印章",
+   "figure": "fr_cscec_2024#f146",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 172,
+   "text": "黄杰",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f147",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 172,
+   "text": "现金流量表（续）",
+   "verdict": "not_title",
+   "reason": "盖在报表标题上的印章",
+   "figure": "fr_cscec_2024#f148",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 172,
+   "text": "邵学",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f149",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 388,
+   "text": "日",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f150",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 388,
+   "text": "YOUNGHUA",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f151",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 389,
+   "text": "国财政部政部制",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f152",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 389,
+   "text": "《年 HUA发",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f153",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 390,
+   "text": "NIH",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f156",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 390,
+   "text": "greetheholdertobetransferredfrom",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f158",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 390,
+   "text": "事务所",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f159",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 390,
+   "text": "DTOT",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f160",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 390,
+   "text": "回茶回",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f161",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 390,
+   "text": "OF",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f162",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 391,
+   "text": "PUBLIC",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f163",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 391,
+   "text": "NTANTS 日1",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f165",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 391,
+   "text": "口",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f166",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fr_cscec_2024",
+   "page": 392,
+   "text": "CIC",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fr_cscec_2024#f168",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 1,
+   "text": "东吴吴证券",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text08#f02",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 76,
+   "text": "徐军 徐飞 海波 刘世严 冠鸿壹号 冠鸿贰号",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text08#f03",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 84,
+   "text": "流程说明",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "fc_text08#f04",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 85,
+   "text": "企业管理层 上游企业数字化系统：ERP&MES",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text08#f05",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 287,
+   "text": "2018-2027年中国移动机器人市场销量及预测（万台）",
+   "verdict": "title",
+   "reason": "图表标题",
+   "figure": "fc_text08#f11",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 455,
+   "text": "能科技股品",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text08#f14",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 456,
+   "text": "全体监事：",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text08#f15",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 456,
+   "text": "智",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text08#f16",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 457,
+   "text": "科搜股份有限",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text08#f17",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 458,
+   "text": "吴证券股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text08#f18",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 459,
+   "text": "市锦天城律师事务所",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text08#f19",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 460,
+   "text": "经办注册会计师：",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text08#f20",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 460,
+   "text": "计师事务所（特殊普",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text08#f21",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 461,
+   "text": "正式执业会员",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text08#f22",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 461,
+   "text": "平估集团（浙江",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text08#f24",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text08",
+   "page": 463,
+   "text": "年 月",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text08#f25",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 52,
+   "text": "股东大会",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text04#f01",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 287,
+   "text": "安克创新科技股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f04",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 288,
+   "text": "赵东平",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f05",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 288,
+   "text": "S",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f06",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 289,
+   "text": "安克创新科技股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f07",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 290,
+   "text": "创新科技股份有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f08",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 291,
+   "text": "创新科技股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f10",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 292,
+   "text": "新科技股份有限公司司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f12",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 293,
+   "text": "韩曦",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text04#f13",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 293,
+   "text": "安克创新科技股份有限",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text04#f14",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 294,
+   "text": "公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f15",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 295,
+   "text": "W玄",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f16",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 295,
+   "text": "创新科技股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f17",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 296,
+   "text": "限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f18",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 297,
+   "text": "安克创新",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f20",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 298,
+   "text": "新科技股 限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f21",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 299,
+   "text": "中国国际金融股份有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f22",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 300,
+   "text": "中国国际金融股份有限公",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f23",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 301,
+   "text": "中国国际金融股份有限公司",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f24",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 302,
+   "text": "问律物",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f25",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 303,
+   "text": "毕马威华",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f26",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 304,
+   "text": "联估股份有",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f27",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text04",
+   "page": 307,
+   "text": "支股份有限公司董事会",
+   "verdict": "not_title",
+   "reason": "扫描页印章/签字/证照文字",
+   "figure": "fc_text04#f28",
+   "source": "ocr",
+   "scan_page": true
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 21,
+   "text": "高元坤",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f03",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 65,
+   "text": "高元坤",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f06",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 72,
+   "text": "高元坤",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f07",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 74,
+   "text": "高元坤",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f08",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 80,
+   "text": "济南市财政局",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f09",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 84,
+   "text": "济南市财政局",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f10",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 86,
+   "text": "济南市财政局",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f11",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 90,
+   "text": "侯明",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f12",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 95,
+   "text": "侯祥",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f13",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 99,
+   "text": "许小林（华盖资本法人）",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f14",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 103,
+   "text": "周爱敏 伦立军等四十七名自然人",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f15",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 114,
+   "text": "申英明 刘五生等三十名自然人",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f17",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 117,
+   "text": "袁世琪 刁玉泰等四十六名自然",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f18",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 121,
+   "text": "申英明 王丽云等十二名自然人",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f19",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 125,
+   "text": "袁世琪 李剑刚等二十四名自然人",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f20",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 130,
+   "text": "山东省人民政府",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f22",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 135,
+   "text": "金伟春 王乾云",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f23",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 139,
+   "text": "谢子龙 陈秀兰",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f24",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 146,
+   "text": "王中华",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f26",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 148,
+   "text": "济南高新技术产业开",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f27",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 151,
+   "text": "金伟春 王乾云",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f28",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 153,
+   "text": "刘达 张林林",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f29",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 155,
+   "text": "安徽省人民政府",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f30",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 157,
+   "text": "王潇坤 范玉莲",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f31",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 163,
+   "text": "金伟春",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f32",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 165,
+   "text": "济南高新技术产业开发区国有资产管理委员会",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f33",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 167,
+   "text": "陈松",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f34",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 169,
+   "text": "薛刚 范大力",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f35",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 179,
+   "text": "曹庆花 王潇坤",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f37",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 182,
+   "text": "刘峰",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f38",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 187,
+   "text": "李素亮",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f40",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 190,
+   "text": "刘拥力",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f41",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 228,
+   "text": "高元坤",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f42",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 239,
+   "text": "宏济堂",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f43",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 248,
+   "text": "电解 环合 还原 层析 精馏 精制 成品",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f44",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 249,
+   "text": "驴皮抹抹去杂 泡皮 刮毛、去腐肉、脂肪 割皮",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f45",
+   "source": "ocr",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 250,
+   "text": "饮用水 原料",
+   "verdict": "not_title",
+   "reason": "照片或示意图内的名称、结构图节点、logo、宣传语",
+   "figure": "fc_text10#f48",
+   "source": "text_layer",
+   "scan_page": false
+  },
+  {
+   "doc_id": "fc_text10",
+   "page": 347,
+   "text": "口",
+   "verdict": "not_title",
+   "reason": "单字/乱码",
+   "figure": "fc_text10#f53",
+   "source": "ocr",
+   "scan_page": false
+  }
+ ]
+}

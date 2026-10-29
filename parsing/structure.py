@@ -6,7 +6,8 @@ Record shape (same for every route, so docview / retrieval work unchanged):
     heading    id h0 / h1 / h2 ...          text, level
     paragraph  id p001 ...                  text
     table      id t01 ...                   text (markdown), caption, source, rows, pages, table_status
-    figure     id f01 ...                   text (caption or 图表/图片), caption, labels, source
+    figure     id f01 ...                   text (caption or 图表/图片), caption, caption_from, labels, numbers,
+                                            source, image, title_candidate (uncaptioned: first line + review verdict)
 every record: parent (enclosing heading), page, bbox (0-1 page fractions), ocr (page had no text layer)
 
 Rules:
@@ -48,11 +49,15 @@ Rules:
     matches, or MinerU flagged continues_prev; the merged table keeps chaining page after page
     (annual report p27-33 R&D projects, p75-95 pollutant tables; before 2026-09-24 the check
     compared the first page of the merged table, so no table ever spanned more than two pages)
-  * figures: caption + the naming words inside the figure (legend entries, axis categories,
-    year labels; no tick values) as labels + the source footnote; the words come from the text
+  * figures (parsing.figures.describe_figure): caption + the naming words inside the figure
+    (legend entries, axis categories, year labels; no tick values) as labels + every number
+    written in it (numbers, reading order) + the source footnote; the words come from the text
     layer, or from RapidOCR on a 200 dpi rendering when the figure is a bitmap (2026-09-26);
-    nothing is generated from the image (competition rule: no preprocessing-stage summaries), the figure
-    is cropped from the PDF at answer time; a figure without a caption (seals, signatures,
+    every figure, captioned or not, is cut out of the PDF as a PNG (image, 2026-10-28); a figure
+    MinerU gave no caption takes its first line as caption when the hand review
+    (processed_data/figure_title_review.json) calls it a title (caption_from says where the
+    caption came from); nothing is generated from the image (competition rule: no
+    preprocessing-stage summaries); a figure still without a caption (seals, signatures,
     photos) stays in elements.jsonl but is not a retrieval unit (agent.docview.Doc.indexable)
   * pages without a text layer and scan pages (parsing.native.page_kind: an image over 70 % of the
     page with no text layer or with the text under it) skip the text-layer repairs, take their
@@ -66,8 +71,8 @@ import pymupdf
 
 from .common import (CONTINUED, DROP, FIGURE_TYPES, LIST_ITEM, TEXT_TYPES, TITLE_TYPES, Leveler, clean, heading_number,
                      infer_style_levels, load_mineru, looks_like_sentence, sentence_signals, spans, style_of, txt)
-from .figures import save_figure
-from .native import check_scan_numbers, ocr_engine
+from .figures import FigureTextCache, describe_figure
+from .native import check_scan_numbers
 from .repair import repair_page
 from .tables import (header_rows_of_html, html_grid, is_layout_table, norm, project, reconcile, rows_to_paragraphs,
                      same_columns, to_markdown, unscramble_cells)
@@ -77,14 +82,18 @@ CAPTION_MAX = 60
 
 
 YEAR_LABEL = re.compile(r"^(?:19|20)\d{2}(?:[-/.]\d{1,2}|[QH][1-4]|[A-Z])?$")     # 2019, 2015-01, 2025Q3, 2024E
-OCR_DPI = 200            # chart labels are small: render the figure at this resolution before OCR
-OCR_MIN_SCORE = 0.5      # RapidOCR confidence below which a line is noise
-LEGEND_GLYPHS = re.compile(r"[■□●○◆◇▲△▪▫◼◻]+")
+FIGURE_LABELS_MAX = 60
 
 
-def label_words(tokens, max_words):
+def label_words(tokens, max_words=FIGURE_LABELS_MAX):
     """The naming words among tokens: two characters or more, containing a CJK or Latin
-    letter and not mostly digits, or a year-like label; duplicates dropped, in order."""
+    letter and not mostly digits, or a year-like label; duplicates dropped, in order.
+    These are a figure's labels: legend entries (series names), axis categories and titles,
+    year-like axis labels (2019, 2015-01, 2025Q3), read from the text layer or OCR
+    (parsing.figures.figure_text; OCR splits legend glyphs off: "■邮购渠道■代理店渠道", 图17).
+    Axis tick values (0%, 20%, 800,000) are not labels: on the research report's 35 charts
+    they are the only numbers in 31 (only 图40 prints data labels), and a stored "50%" is a
+    false BM25 hit; every number of a figure goes to its separate `numbers` field instead."""
     out, seen = [], set()
     for t in tokens:
         t = t.strip()
@@ -103,40 +112,18 @@ def label_words(tokens, max_words):
     return out
 
 
-def figure_labels(page, bbox_pt, max_words=60, stats=None, text_layer=True):
-    """Words inside a figure that name something: legend entries (series names), axis
-    categories and titles, and year-like axis labels (2019, 2015-01, 2025Q3). Taken from the
-    text layer; when the region has none (a bitmap: photo, scan, chart pasted as an image)
-    the figure is rendered at OCR_DPI and read with RapidOCR (lines below OCR_MIN_SCORE
-    dropped), then filtered the same way.
-    Axis tick values (0%, 20%, 800,000) are dropped: on the research report's 35 charts they
-    are the only numbers in 31 (only 图40 prints data labels), and a stored "50%" is a false
-    BM25 hit. Charts whose axis labels are drawn as paths (图3, 图4, 图7: no year anywhere in
-    the page's text layer) used to yield no year; OCR now reads them off the rendering. The
-    values of a chart are never stored: at answer time the figure is cropped from the PDF
-    and shown to the model (see the figure record's page and bbox)."""
-    x0, y0, x1, y1 = bbox_pt
-    rect = pymupdf.Rect(x0, y0, x1, y1)
-    words = [w[4] for w in page.get_text("words", clip=rect)] if text_layer else []     # a scan's layer is the draft under it
-    if words:
-        return label_words(words, max_words)
-    engine = ocr_engine()
-    if engine is None or rect.is_empty:
-        return []
-    if stats is not None:
-        stats["figure_ocr"] += 1
-    import numpy as np
-    pix = page.get_pixmap(dpi=OCR_DPI, clip=rect)
-    img = np.frombuffer(pix.samples, dtype=np.uint8).reshape(pix.height, pix.width, pix.n)[:, :, :3]
-    res, _ = engine(img)
-    # legend colour squares come back as ■ □ ● glyphs glued to the entries ("■邮购渠道■代理店渠道",
-    # 图17): split on them and drop them
-    tokens = [tok for box, text, score in (res or []) if float(score) >= OCR_MIN_SCORE
-              for tok in LEGEND_GLYPHS.split(str(text)) for tok in tok.split()]
-    labels = label_words(tokens, max_words)
-    if stats is not None and labels:
-        stats["figure_ocr_with_labels"] += 1
-    return labels
+def figure_record_fields(info):
+    """The structure-record fields of parsing.figures.describe_figure's result."""
+    rec = {"caption": info["caption"], "labels": label_words(info["tokens"])}
+    if info["caption_from"]:
+        rec["caption_from"] = info["caption_from"]
+    if info["numbers"]:
+        rec["numbers"] = info["numbers"]
+    if info["image"]:
+        rec["image"] = info["image"]
+    if info["title_candidate"]:
+        rec["title_candidate"] = info["title_candidate"]
+    return rec
 
 
 class Builder:
@@ -161,6 +148,7 @@ class Builder:
         self.leveler = Leveler(self.style_order["levels"])
         self.stats = Counter()
         self.table_status = Counter()
+        self.fig_cache = FigureTextCache(doc_id)          # OCR of the figures, kept between builds
 
     def title_texts(self):
         """Every heading text of the document in order, before any repair: MinerU's title
@@ -297,6 +285,7 @@ class Builder:
             if page_records:
                 page_records[-1]["_last_on_page"] = True
         self.merge_cross_page_tables()
+        self.fig_cache.save()
         for r in self.records:
             for k in ("_first_on_page", "_last_on_page", "_continues_prev", "_ranges", "_list"):
                 r.pop(k, None)
@@ -342,16 +331,13 @@ class Builder:
         source = clean(" ".join(txt(c) for c in spans(b, "_footnote")))
         body = spans(b, "_body")
         bbox = body[0]["bbox"] if body else b["bbox"]
-        labels = figure_labels(page, (bbox[0] * W, bbox[1] * H, bbox[2] * W, bbox[3] * H), stats=self.stats,
-                               text_layer=not self.page_scan)
-        rec = {"id": self.new_id("figure"), "type": "figure", "parent": self.current_heading(), "page": pno,
-               "text": caption or ("图表" if b["type"] == "chart" else "图片"), "caption": caption, "bbox": bbox,
-               "labels": labels, "source": source, "kind": b["type"]}
-        if caption:                                      # a captioned figure is cut out of the PDF and kept as a file
-            image = save_figure(page, bbox, self.doc_id, rec["id"].split("#", 1)[1], force=True)
-            if image:
-                rec["image"] = image
-                self.stats["figure_image_saved"] += 1
+        fid = self.new_id("figure")
+        info = describe_figure(page, bbox, self.doc_id, pno, fid.split("#", 1)[1], caption=caption,
+                               text_layer=not self.page_scan, cache=self.fig_cache, stats=self.stats)
+        fields = figure_record_fields(info)
+        rec = {"id": fid, "type": "figure", "parent": self.current_heading(), "page": pno,
+               "text": fields["caption"] or ("图表" if b["type"] == "chart" else "图片"), "bbox": bbox,
+               "source": source, "kind": b["type"], **fields}
         self.records.append(rec)
         self.stats["figure"] += 1
 

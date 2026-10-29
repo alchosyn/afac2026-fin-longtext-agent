@@ -11,9 +11,11 @@
     parsing.tables  text-layer projection, MinerU-grid reconciliation, candidate tables, interleaved
                     cells re-read from the text layer (shared)
     parsing.native  native.json, page kinds (scan / digital), RapidOCR, scan-table number check
-    parsing.figures captioned figures cut out of the PDF at build time -> processed_data/<doc>/figures/<id>.png,
-                    the path recorded on the figure record and copied into its chunk (script/render_figures.py
-                    does the same for structures built earlier)
+    parsing.figures every figure cut out of the PDF at build time -> processed_data/<doc>/figures/<id>.png,
+                    the path recorded on the figure record and copied into its chunk; the text inside a
+                    figure (text layer, else cached OCR) -> labels, numbers, and the first line as caption
+                    when the hand review calls it a title (script/render_figures.py does the same for
+                    structures built earlier)
     parsing.rerun   MinerU run again on a cropped region (an image captioned 表N that is a table)
     parsing.outline the heading list (bookmarks, else the printed TOC) -> docs.json
     parsing.common  MinerU block helpers, numbering styles, document cards

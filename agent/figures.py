@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """Figure images for the answering model.
 
-A figure's chunk holds its caption, the naming words inside it and the source line (no
-values: competition rule, nothing is generated at index time) and a pointer `image` to the
-PNG the structure build cut out of the PDF (parsing.figures, processed_data/<doc>/figures/).
+A figure's chunk holds its caption, the naming words inside it and the source line, the
+numbers written in it (`numbers`: read off the text layer or OCR, never generated; not part of
+the BM25 text) and a pointer `image` to the PNG the structure build cut out of the PDF
+(parsing.figures, processed_data/<doc>/figures/; every figure has one since 2026-10-28).
 When such a chunk is evidence, the judge gets the figure itself: the file is read and
 attached to the call as a PNG (agent.llm.Qwen.chat images=...). A record without the
 pointer (a structure built before 2026-10-01 and not yet passed through

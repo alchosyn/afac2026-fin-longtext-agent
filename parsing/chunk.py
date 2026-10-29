@@ -42,8 +42,10 @@ Rules (agreed 2026-10-01):
     stays with the previous piece
   * figures: one chunk when captioned (caption, the words inside the figure, the source line),
     with `image`, the path of the PNG the structure build cut out of the PDF (parsing.figures),
-    which a retrieved figure chunk hands to the multimodal judge; an uncaptioned figure (seal,
-    signature, photo, logo) is not a chunk
+    which a retrieved figure chunk hands to the multimodal judge, and `numbers`, every number
+    written in the figure; the caption is MinerU's, or the figure's first line when the hand
+    review called it a title (`caption_from` text_layer_first_line / ocr_first_line); an
+    uncaptioned figure (seal, signature, photo, logo) is not a chunk
   * noise that never becomes a chunk: checkbox boilerplate (□适用 √不适用, □是 √否) and the
     private-use glyphs of icon fonts; a standalone unit line (单位：元) right before a table
     joins the table's caption instead of being a paragraph
@@ -79,6 +81,9 @@ Record:
     text      the chunk's own text (text / clause: the paragraphs joined by newlines;
               table: markdown of the header rows and the piece's rows; figure: 图内文字：...)
     caption, source           table and figure only
+    image, numbers            figure only: the PNG path; every number written in the figure
+                              (axis ticks, data labels, years; reading order, as written), when any
+    caption_from              figure only, when the caption is the figure's first line
     rows [lo, hi], part [k, n]    a table piece: body rows lo..hi (0-based, header excluded)
     span [lo, hi], part [k, n]    a text / clause piece: character span of the member's text
     refs                      ids of the chunks this one cites: clauses and numbered figures /
@@ -454,9 +459,15 @@ class Chunker:
             self.stats["figure_uncaptioned_skipped"] += 1
             self.dropped["figure_uncaptioned"].append(rec["id"])
             return
-        labels = rec.get("labels") or rec.get("legend") or []
+        labels = [x for x in (rec.get("labels") or rec.get("legend") or []) if x != caption]
+        if rec.get("caption_from", "mineru") != "mineru":                    # the first line is the caption: its words are not labels too
+            labels = [x for x in labels if x not in caption or re.fullmatch(r"(?:19|20)\d{2}\S{0,3}", x)]
         text = ("图内文字：" + "、".join(labels)) if labels else ""
         extra = {"image": rec["image"]} if rec.get("image") else {}        # pointer to the PNG the structure build saved
+        if rec.get("numbers"):
+            extra["numbers"] = rec["numbers"]                              # every number written in the figure, reading order
+        if rec.get("caption_from") and rec["caption_from"] != "mineru":
+            extra["caption_from"] = rec["caption_from"]
         self.emit("figure", self.par(rec), [rec], text, caption=caption, source=clean_text(rec.get("source") or ""), **extra)
 
     # ---- the walk
